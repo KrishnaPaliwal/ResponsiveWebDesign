@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="This is my web page to display latest mobiles for purchase">
+		<meta name="keywords" content="mobile, phone, price, sale, review">
+		<meta name="author" content="M1028801">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- import jQuery -->
+	   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	   
+	   <!-- import custom JavaScript file -->
+	   <script type="text/javascript" src="js/custom.min.js"></script>
+		
+			<!-- Font Awesome Icon Library -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+		<!-- import our own stylesheet -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/styles.min.css">
+		<!-- Galaxy S5 styles -->
+		<link rel="stylesheet" type="text/css" href="css/galaxyS5-styles.min.css">
+		
+		<!-- import json fie to read data-->
+		<script type="text/javascript" language="javascript" src="json/json_data.json"></script> 
+		
+		<title> Mobile first RW App Home Page </title>
+	</head>
+	
+	<body>
+		<div id="top">	
+			<header id="header">
+				<div id="awesome-head">
+			
+					<a href="#"><i id="i" name="search" title="search" class="fa fa-search" aria-hidden="true"></i></a>
+					<a href="#"><i id="i" name="userlogin" title="Login" class="fa fa-user-circle" aria-hidden="true"></i></a>
+					<a href="#"><i id="i" name="cart" title="Add to cart" class="fa fa-cart-plus" aria-hidden="true"></i></a>
+				</div>	
+			
+				<div id="menu-header">
+					<nav role="navigation">
+						<ul id="menu" class="sf-menu">
+								<li itemprop="menu">
+									<img id="logo" src="images/logo.png" class="logo" alt="logo-image">
+								</li>
+								<li itemprop="menu">
+									<a class="li-item" href="IndexPage.html" style="font-size:2.9vw;">Home</a>
+								</li>
+								<li itemprop="menu">
+									<a class="li-item" href="#" style="font-size:2.9vw;">Mobiles</a>
+								</li>
+								<li itemprop="menu">
+									<a class="li-item" href="#" style="font-size:2.9vw;">Hot Deals</a>
+								</li>
+								<li itemprop="menu">
+									<a class="li-item" href="#" style="font-size:2.9vw;">About</a>
+								</li>
+								<li itemprop="menu">
+									<a class="li-item" href="#" style="font-size:2.9vw;">Contact</a>
+								</li>
+							</ul>
+					</nav>
+				</div>
+			</header>
+			<section>
+				<div id="carousel-effect">
+					<div class="container">
+						<div id="carousel" class="carousel slide" data-ride="carousel">
+							<!-- Indicators -->
+							<ol class="carousel-indicators">
+							  <li data-target="#carousel" data-slide-to="0" class="active" ></li>
+							  <li data-target="#carousel" data-slide-to="1" ></li>
+							  <li data-target="#carousel" data-slide-to="2"></li>
+							  <li data-target="#carousel" data-slide-to="3"></li>
+							</ol>
+
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner">
+							  <div class="item active">
+								<img src="images/carosuel.png" alt="carosuel-0" style="width:100%;">
+									<div class="carousel-caption">
+										<p class="h1-item">Moto G</p>
+										<p class="h3-item">Next Gen Mobile</p>
+										<p class="h5-item"> The latest Moto X series phone, the Moto X4, has been launched exclusively.</p>
+										<button id="btn1" class="btn-item btn-color">Order Now</button>
+									</div>
+							  </div>
+
+							  <div class="item">
+								<img src="images/carosuel.png" alt="carosuel-1" style="width:100%;">
+									<div class="carousel-caption">
+										<p itempr class="h1-item">Moto G</p>
+										<p class="h3-item">Next Gen Mobile</p>
+										<p class="h5-item"> The latest Moto X series phone, the Moto X4, has been launched exclusively.</p>
+										<button id="btn2" class="btn-item btn-color">Order Now</button>
+									</div>
+								</div>
+								
+							  <div class="item">
+								<img src="images/carosuel.png" alt="carosuel-2" style="width:100%;">
+									<div class="carousel-caption">
+										<p class="h1-item">Moto G</p>
+										<p class="h3-item">Next Gen Mobile</p>
+										<p class="h5-item"> The latest Moto X series phone, the Moto X4, has been launched exclusively.</p>
+										<button id="btn3" class="btn-item btn-color">Order Now</button>
+									</div>
+								</div>
+							  <div class="item">
+								<img src="images/carosuel.png" alt="carosuel-3" style="width:100%;">
+									<div class="carousel-caption">
+										<p class="h1-item">Moto G</p>
+										<p class="h3-item">Next Gen Mobile</p>
+										<p class="h5-item"> The latest Moto X series phone, the Moto X4, has been launched exclusively.</p>
+										<button id="btn4" class="btn-item btn-color">Order Now</button>
+									</div>
+								</div>
+							</div>
+
+							<!-- Left and right controls -->
+							<a class="left carousel-control" href="#carousel" data-slide="prev">
+							  <span class="glyphicon glyphicon-chevron-left"></span>
+							  <span class="sr-only">Previous</span>
+							</a>
+							<a class="right carousel-control" href="#carousel" data-slide="next">
+							  <span class="glyphicon glyphicon-chevron-right"></span>
+							  <span class="sr-only">Next</span>
+							</a>
+					  </div>
+					</div>	
+				</div>
+			</section>
+			
+			<section>
+				<div id="new-arrivals">
+					<div>
+						<p class ="center-margin"><span style= "color : white"> NEW </span> ARRIVALS</p>
+						<p class ="h2-arr">Mobile phones from top brands are available at the most competitive prices</p>
+					</div>
+
+					<div class="row">
+						
+						<div class="column">
+							<div class="arr-column">
+								<a href="#"><img id="mobile-A" class="img-margin" src ="images/mobile1.png" alt="This is description of mobile"></a>
+								<h2 class="phone-name">iPhone</h2>
+								<a style="color:#ff5912" href="#"><img class ="cart" src ="images/cart.png" alt="cart"></a>
+								<img class = "whishlist" src ="images/whishlist.png" alt="whishlist">
+							</div>
+						</div>
+						
+						<div class="column">
+							<div class="arr-column">
+								<a href="#"><img id="mobile-B" class="img-margin" src ="images/mobile1.png" alt="This is description of mobile"></a>
+								<h2 class="phone-name">Moto G</h2>
+								<a style="color:#ff5912" href="#"><img class ="cart" src ="images/cart.png" alt="cart"></a>
+								<img class = "whishlist" src ="images/whishlist.png" alt="whishlist">
+							</div>
+						</div>
+						
+						<div class="column">
+							<div class="arr-column">
+								<a href="#"><img id="mobile-C" class="img-margin" src ="images/mobile1.png" alt="This is description of mobile"></a>
+								<h2 class="phone-name">Moto G</h2>
+								<a style="color:#ff5912" href="#"><img class ="cart" src ="images/cart.png" alt="cart"></a>
+								<img class = "whishlist" src ="images/whishlist.png" alt="whishlist">
+							</div>
+						</div>
+						
+						<div class="column">
+							<div class="arr-column">
+								<a href="#"><center><img id="mobile-D" class="img-margin" src ="images/mobile 2.png" alt="This is description of mobile"></center></a>
+								<button id="btn5" class="notify-btn" style="text-align:center"><b>NOTIFY ME</b></button>
+							</div>
+						</div>
+					
+					</div>
+					
+					<center><button title="Click to load all mobiles" class = "column-button" onclick="window.location.href='./AllMobilePage.html'">Load All</button></center>
+				
+				</div>
+			</section>
+			
+			<section>
+				<div id="best-sales">
+					<div>
+						<p class ="center-margin"><span style= "color : white"> BEST </span> SALES</p>
+						<p class ="h2-arr">Find out the best sellers collections</p>
+					</div>
+					<div class="container">
+					<div class="row">
+						<div class="col-sm-4 column-sales">
+								<div style="float:left ;width:25%">
+									<a href="#"><img id="mobile-E" class="img-margin-sales" src ="images/thumbnailmobile.png" alt="This is description of mobile"></a>
+								</div>
+								<div style="float:left; width:60%">
+									<p style="padding:15px;font-size:2vw"><b>iPhone 6S</b></p>&nbsp;&nbsp;&nbsp;
+									<span class="fa fa-star rating" style="font-size:1.5vw"></span>
+									<span class="fa fa-star rating" style="font-size:1.5vw"></span>
+									<span class="fa fa-star rating" style="font-size:1.5vw"></span>
+									<span class="fa fa-star-o" style="font-size:1.5vw"></span>
+								</div>
+						</div>
+						
+						<div class="col-sm-4 column-sales">
+								<div style="float:left ;width:25%">
+									<a href="#"><img id="mobile-F" class="img-margin-sales" src ="images/thumbnailmobile.png" alt="This is description of mobile"></a>
+								</div>
+								<div style="float:left; width:30%">
+									<p style="padding:15px;font-size:2vw"><b>Nokia</b></p>
+									<span class="fa fa-star rating" style="font-size:1.5vw"></span>
+									<span class="fa fa-star rating" style="font-size:1.5vw"></span>
+									<span class="fa fa-star rating" style="font-size:1.5vw"></span>
+									<span class="fa fa-star-o" style="font-size:1.5vw"></span>
+								</div>
+								<div style="float:left; width:45% ; margin-top:9vw">
+									<img src ="images/cart.png" alt="cart"/> <span class="add-cart"><a style="color:#ff5912; font-size:1vw" href="#">Add to Cart</a></span>
+								</div>
+						</div>
+						<div class="col-sm-4 column-sales">
+								<div style="float:left ;width:25%">
+									<a href="#"><img id="mobile-G" class="img-margin-sales" src ="images/thumbnailmobile.png" alt="This is description of mobile"></a>
+								</div>
+								<div style="float:left; width:30%">
+									<p style="padding:15px;font-size:2vw"><b>Nokia</b></p>
+									<span class="fa fa-star rating" style="font-size:1.5vw"></span>
+									<span class="fa fa-star rating" style="font-size:1.5vw"></span>
+									<span class="fa fa-star rating" style="font-size:1.5vw"></span>
+									<span class="fa fa-star-o" style="font-size:1.5vw"></span>
+								</div>
+								<div style="float:left; width:45% ; margin-top:9vw">
+									<img src ="images/cart.png" alt="cart"/> <span class="add-cart"><a style="color:#ff5912;font-size:1vw" href="#">Add to Cart</a></span>
+								</div>
+						</div>
+					</div>
+					</div>
+				</div>
+			</section>
+			
+			<section>
+				<div id="use-reviews">
+					<div>
+						<h1 class ="center-margin"><span style= "color : white"> USER </span> REVIEW</h1>
+						<h2 class="h2-arr" style= "margin-bottom: 75px; color:white ; text-align: center">Find out the best sellers collections</h2>
+					</div>
+
+					<div class="row">
+						<div class="column-sales">
+							<div class="review">
+								<div style="float:left ;width:25%">
+									<a href="#"><img id="mobile-H" class="img-margin-sales" src ="images/thumbnailmobile.png" alt="This is description of mobile"></a>
+								</div>
+								<div class ="review-link">
+									<a href="#">
+										Very good performation and good look and feel with stylish look
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="column-sales">
+							<div class="review">
+								<div style="float:left ;width:25%">
+									<a href="#"><img id="mobile-I" class="img-margin-sales" src ="images/thumbnailmobile.png" alt="This is description of mobile"></a>
+								</div>
+								<div class ="review-link">
+									<a href="#">
+										Very good performance and good look and feel with stylish look
+									</a>
+								</div>
+
+							</div>
+						</div>
+						<div class="column-sales">
+							<div class="review">
+								<div style="float:left ;width:25%">
+									<a href="#"><img id="mobile-J" class="img-margin-sales" src ="images/thumbnailmobile.png" alt="This is description of mobile"></a>
+								</div>
+								<div class ="review-link">
+									<a href="#">
+										Very good performance and good look and feel with stylish look
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<section>
+				<div id="news-letter">
+					<div style="padding-left:30px; padding-top:40px;">
+						<span style="color:#ff5912;font-weight:bold; font-size:1.5vw">NEWSLETTER</span>
+						&nbsp;&nbsp; &nbsp;<b style="font-weight:bold; font-size:1.2vw">Subscribe now to get all news and special offers</b>
+						<span style="padding-left:10vw">
+							<img src="images/email.png" alt="email" id="email" title="Click on it to provide email address">
+						</span>
+						<span style="color:#666666;"><i>type your email here</i></span>
+						<span style="padding-left:10px">
+							<button id="btn6" class="subscribe-btn"> SUBSCRIBE</button>
+						</span>
+					</div>
+				</div>
+			</section>
+		</div>
+	
+		<div id="footer">
+			<div style="float:left; width:60%; padding:5vw">
+				<table>
+					<tr>
+						<th>
+							<ul >
+								<li class ="support"><a href="#">About Us</a></li>
+								<li class ="support"><a href="#">Contact Us</a></li>
+								<li class ="support"><a href="#">Customer Support</a></li>
+							</ul>
+						</th>
+						<th>
+							<ul style="margin-left: 50px">
+								<li class ="support"><a href="#">Subscribe</a></li>
+								<li class ="support"><a href="#">Term and Conditions</a></li>
+								<li class ="support"><a href="#">Privacy Policy</a></li>
+							</ul>
+						</th>
+					</tr>
+				</table>
+			</div>
+			
+			<div style="float:left; width:40%; padding:5vw">
+				<span style="color:#ff5912; font-weight:bold;">We support all these payment methods</span>
+				<img style="padding:20px" src="images/paymenticons.png" alt="paymenticons">
+			</div>
+		</div> 
+
+		<!-- To show image in popup -->
+		<div id="myModal" class="modal">
+		  <span class="close">&times;</span>
+		  <img class="modal-content" id="img01" src="#" alt="#">
+		  <div id="caption"></div>
+		</div>
+
+		<script>
+			// To show image in popup
+			var modal = document.getElementById('myModal');
+			var imgA = document.getElementById('mobile-A');
+			var imgB = document.getElementById('mobile-B');
+			var imgC = document.getElementById('mobile-C');
+			var imgD = document.getElementById('mobile-D');
+			var imgE = document.getElementById('mobile-E');
+			var imgF = document.getElementById('mobile-F');
+			var imgG = document.getElementById('mobile-G');
+			var imgH = document.getElementById('mobile-H');
+			var imgI = document.getElementById('mobile-I');
+			var imgJ = document.getElementById('mobile-J');
+			var modalImg = document.getElementById("img01");
+			var captionText = document.getElementById("caption");
+
+			imgA.onclick = function(){
+				modal.style.display = "block";
+				modalImg.src = this.src;
+				captionText.innerHTML = this.alt;
+			}
+
+			imgB.onclick = function(){
+				modal.style.display = "block";
+				modalImg.src = this.src;
+				captionText.innerHTML = this.alt;
+			}
+
+			imgC.onclick = function(){
+				modal.style.display = "block";
+				modalImg.src = this.src;
+				captionText.innerHTML = this.alt;
+			}
+
+			imgD.onclick = function(){
+				modal.style.display = "block";
+				modalImg.src = this.src;
+				captionText.innerHTML = this.alt;
+			}
+
+			imgE.onclick = function(){
+				modal.style.display = "block";
+				modalImg.src = this.src;
+				captionText.innerHTML = this.alt;
+			}
+
+			imgF.onclick = function(){
+				modal.style.display = "block";
+				modalImg.src = this.src;
+				captionText.innerHTML = this.alt;
+			}
+
+			imgG.onclick = function(){
+				modal.style.display = "block";
+				modalImg.src = this.src;
+				captionText.innerHTML = this.alt;
+			}
+
+			imgH.onclick = function(){
+				modal.style.display = "block";
+				modalImg.src = this.src;
+				captionText.innerHTML = this.alt;
+			}
+
+			imgI.onclick = function(){
+				modal.style.display = "block";
+				modalImg.src = this.src;
+				captionText.innerHTML = this.alt;
+			}
+
+			imgJ.onclick = function(){
+				modal.style.display = "block";
+				modalImg.src = this.src;
+				captionText.innerHTML = this.alt;
+			}
+
+			// When the user clicks on X, close the popup window
+			var span = document.getElementsByClassName("close")[0];
+
+			span.onclick = function() { 
+				modal.style.display = "none";
+			}	
+
+			// When user press ESC close the popup window
+			$(document).keydown(function(event) { 
+			  if (event.keyCode == 27) { 
+				$('#myModal').hide();
+			  }
+			});	
+		</script>
+	</body>
+</html>

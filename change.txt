@@ -1,0 +1,12 @@
+Responsive-Web-Design_Project version 2.0
+
+
+Changed/Included
+
+1.  Included HTML5 semantics header, section
+2.  Included meta tag attributes keywords, description, author
+3.  Included additional Media queries for responsiveness and made page more responsive on browser resize for different screen width.
+4.  Minified CSS and JS files.
+5.  Fixed to make navigation and Menu item responsive with browser resize.
+6.  Fixed to make carousel more responsive with browser resize. 
+7.  Updated to make further compliant with Web Accessibility2 level AA 

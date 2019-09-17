@@ -1,0 +1,5 @@
+var jsonObject = {
+"logo": {
+		"path":"Welocme to Home page!!! This is an example to load the static data from JSON file via JQuery, Please press OK to load home page"
+		}
+}

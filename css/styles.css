@@ -1,0 +1,483 @@
+
+#top {
+	background : #acc234;
+	width : 100%;
+	padding-bottom :35px;
+}
+
+#awesome-head {
+	width : 100%;
+    height: 60px;
+	text-align :right;	
+}
+
+#menu-header {
+	width : 100%;
+    height: 120px;
+    background: white;
+}
+
+#carousel-effect {
+	width : 100%;
+    background: #acc234;
+}
+
+
+#best-sales {
+	margin-top:75px;
+}
+
+#use-reviews {
+	margin-top:75px;
+}
+
+#news-letter {
+	margin-top:75px;
+    height: 120px;
+	background-color:white;
+	float: center;
+    width: 94%;
+	margin-left : 25px;
+	margin-right : 75px;
+}
+
+#footer {
+	background: white;
+}
+
+.sf-menu {
+    margin: 0;
+    padding-top: 40px;
+	width : 100%;
+	height :100%;
+
+}
+.sf-menu > li {
+position: relative;
+    float: left;
+    list-style: none;
+    line-height: 20px;
+    padding-left: 0px;
+    width: 16%;
+}
+.sf-menu > li > a {
+    text-decoration: none;
+    display: block;	
+}
+
+.li-item 
+{
+	color: #34404B;
+	text-decoration: none!important;
+	font-weight: bold;	
+}
+
+.sf-menu > li > a:hover {
+	color : #ff5912;
+}
+
+#i {
+	font-size : 2.92em;
+	color : white;
+	padding-right : 25px;
+}
+
+.logo {
+    padding-top: 2%;
+    width: 80%;
+	padding-right:10px;
+}
+
+a:hover {
+	color : #ff5912;
+}
+
+.h1-item {
+	color:#ff5912;
+	margin-bottom:20px;
+	font-weight: bold;
+	font-size: 2.6vw;
+}
+
+.h3-item {
+	color:#4d4d4d;
+	margin-bottom:20px;
+	font-weight: bold;
+	font-size: 2vw;
+}
+
+.h5-item {
+	color:#666666;
+	padding-bottom:10px;
+	font-size: 1.5vw;;	
+}
+
+
+.btn-item {
+	background-color:#c54712;
+	font-size:2.6vw;
+	size : 3vw;
+	color:white;	
+	display: inline-block;
+	border : none;
+	padding: 5px 50px;
+	float: none;
+}
+
+.notify-btn {
+	background-color:#c54712;
+	font-size:10px;
+	size : 20px;
+	color:white;	
+	display: inline-block;
+	border : none;
+	margin-top : 20px;
+	margin-left : 20px;
+	padding: 10px 30px;
+}
+
+.center-margin {
+	margin-top: 10vw;
+	margin-bottom: 3.1vw;
+	text-align: center;
+	font-size : 3vw;
+}
+
+.img-margin {
+	margin-top: 34px;
+	margin-left: 81px;
+	margin-right: 81px;
+	margin-bottom: 15px;
+}
+
+.h2-arr {
+	margin-bottom: 10vw;
+	color:white;
+	text-align: center;
+	font-size:2vw;
+}
+
+.arr-column { 
+	width:100%;
+	height:367px;
+	background-color:white;
+}
+.img-margin-sales {
+	margin-top: 1vw;
+	margin-left: auto;
+	size:1vw;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+	height:367x;
+    float: left;
+    width: 270px;
+    padding: 10px;
+	background: #acc234;
+	margin-left : 40px;
+}
+
+.column-sales {
+    float: left;
+    width: 25vw;
+	height:12vw; 
+	margin-left : 50px;
+	background : white;
+}
+
+
+.column-button {
+    float: center;
+    width: 94%;
+    height: 60px;
+	background: white;
+	margin-left : 35px;
+	margin-right : 80px;
+	margin-top : 75px;
+	border : block;
+	font-weight : bold;
+	font-size: 2.5vw;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+	background-size:cover;
+}
+
+.whishlist {
+	padding:left;
+	margin-left:180px;
+	margin-bottom:15px;
+}
+
+.cart { 
+	padding:left;
+	margin-left:10px;
+	margin-bottom:15px;
+}
+
+img {
+	max-width : 100%;
+}
+
+.add-cart {
+	color:#ff5912;
+	font-weight:bold;
+	margin-left:15px;
+}
+
+.review-link {
+	float:left;
+	width:52%;
+	margin-left:20px;
+	margin-top:20px;
+	font-size:1.2vw;
+	text-decoration: underline;
+}
+
+.phone-name {
+	text-align: center;
+	font-weight:bold;
+	font-size: 2vw;
+}
+.subscribe-btn {
+	background-color:#c54712;
+	font-size:10px;
+	size : 20px;
+	color:white;	
+	display: inline-block;
+	border : none;
+	padding: 10px 30px;
+}
+
+.p-arr {
+	margin-bottom: 75px;
+	color:white;
+	text-align: center;
+	font-size : 25px;
+}
+
+.support {
+	margin-bottom:1.5vw;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 200px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 40%;
+    max-width: 300px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 15px;
+}
+
+/* Add Animation */
+.modal-content, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media screen 
+  and (max-width: 550px) {
+
+	.h1-item {
+		color:#ff5912;
+		margin-bottom:10px;
+		font-weight: bold;
+		font-size: 2.6vw;
+	}
+
+	.h3-item {
+		color:#4d4d4d;
+		margin-bottom:10px;
+		font-weight: bold;
+		font-size: 2vw;
+	}
+
+	.h5-item {
+		color:#666666;
+		padding-bottom:10px;
+		font-size: 1.5vw;;	
+	}
+	
+	#menu-header {
+		width : 100%;
+		height: 50px;
+		background: white;
+	}
+	
+	.sf-menu {
+		padding-top: 12px;
+		width : 100%;
+		height :100%;
+
+	}
+	
+	#awesome-head {
+		width : 100%;
+		height: 30px;
+		text-align :right;	
+	}
+	
+	#i {
+		font-size : 2em;
+		color : white;
+		padding-right : 20px;
+	}
+	
+}
+
+@media screen 
+  and (max-width: 850px) 
+  and (min-width: 550px)  {
+	
+	#menu-header {
+		width : 100%;
+		height: 80px;
+		background: white;
+	}
+	
+	.sf-menu {
+		padding-top: 15px;
+		width : 100%;
+		height :100%;
+
+	}
+	
+}
+
+@media screen 
+  and (max-width: 620px)  {
+	
+	.arr-column { 
+		width:100%;
+		height:175px;
+		background-color:white;
+	}
+
+	.column {
+		height:175x;
+		float: left;
+		width: 130px;
+		padding: 10px;
+		background: #acc234;
+		margin-left : 20px;
+	}
+	.img-margin {
+		margin-top: 17px;
+		margin-left: 30px;
+		margin-right: 30px;
+		margin-bottom: 7px;
+		width: 50%;
+		height: 65%;
+	}
+	.phone-name {
+		text-align: center;
+		font-weight:bold;
+		font-size: 2vw;
+		margin-top: 2px;
+		margin-bottom: 0px
+	}
+	.cart { 
+		padding:left;
+		margin-left:5px;
+		margin-bottom:1px;
+	}
+
+	.whishlist {
+		padding:left;
+		margin-left:50px;
+		margin-bottom:0px;
+	}
+	.notify-btn {
+		background-color:#c54712;
+		font-size:5px;
+		size : 20px;
+		color:white;	
+		display: inline-block;
+		border : none;
+		padding: 10px 10px;
+		margin-left:35px;
+		margin-top:1px;
+	}
+
+	.column-button {
+		float: center;
+		width: 94%;
+		height: 40px;
+		background: white;
+		margin-left : 25px;
+		margin-right : 40px;
+		margin-top : 35px;
+		border : block;
+		font-weight : bold;
+	}
+}	
+@media screen 
+  and (max-width: 805px)  {
+	
+.support {
+	margin-bottom:1.5vw;
+	font-size: 10px;
+}
+  }
